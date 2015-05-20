@@ -1,0 +1,19 @@
+
+heroku config:set NODE_ENV=production
+heroku config:set PORT=80
+heroku config:set ACCESS_TOKEN=35105606
+heroku config:set MONGO_URL=mongodb://heroku_app35459713:ksbj5lmvb89jvt8lpu93tv6usj@ds039291.mongolab.com:39291/heroku_app35459713
+heroku config:set LOCALE=fr
+heroku config:set MANDRILL_APIKEY=AbW8b5sRRM4qv6eSZiXnrA
+heroku config:set MANDRILL_FROM_EMAIL=cloud-notifier@moustachu.net
+heroku config:set MANDRILL_FROM_NAME=theinternet
+heroku config:set MANDRILL_TOKEN=AbW8b5sRRM4qv6eSZiXnrA
+heroku config:set MANDRILL_USERNAME=app35108697@heroku.com
+heroku config:set LOGENTRIES_TOKEN=9608a947-9af6-48ea-ae73-1175a646e8f9
+heroku config:set TWILIO_ACCOUNT_SID=fake
+heroku config:set TWILIO_ACCOUNT_TOKEN=fake
+heroku config:set APPLE_CERT=fake
+heroku config:set APPLE_KEY=fake
+heroku config:set GOOGLE_SERVER_API_KEY=fake
+heroku config:set HOOK_TOKEN=fake
+heroku config:set HOOK_URL=fake

@@ -1,0 +1,19 @@
+{
+	"NODE_ENV": "production",
+	"PORT": "80",
+	"ACCESS_TOKEN": "35105606",
+	"MONGO_URL": "mongodb://heroku_app35459713:ksbj5lmvb89jvt8lpu93tv6usj@ds039291.mongolab.com:39291/heroku_app35459713",
+	"LOCALE": "fr",
+	"MANDRILL_USERNAME": "app35108697@heroku.com",
+	"MANDRILL_TOKEN": "twaegzstlLSJ-dXP8hsezg",
+	"MANDRILL_FROM_NAME": "Democracy OS France",
+	"MANDRILL_FROM_EMAIL": "democracy.os@moustachu.net",
+	"LOGENTRIES_TOKEN": "a5058a75-dbda-45db-9414-e0f91889bd36",
+	"TWILIO_ACCOUNT_SID": "fake",
+	"TWILIO_ACCOUNT_TOKEN": "fake",
+	"APPLE_CERT": "fake",
+	"APPLE_KEY": "fake",
+	"GOOGLE_SERVER_API_KEY": "fake",
+	"HOOK_TOKEN": "fake",
+	"HOOK_URL": "fake"
+}

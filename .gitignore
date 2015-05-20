@@ -4,3 +4,7 @@ node_modules
 .env
 
 config/development.config*.js
+
+*app.json
+
+heroku-config-cli.txt
