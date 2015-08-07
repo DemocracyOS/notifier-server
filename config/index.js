@@ -1,6 +1,7 @@
-var util = require('util');
+/**
+ * Constants definition
+ */
 
-var env = process.env.NODE_ENV || 'development';
-var config = util.format('/%s.config.js', env);
+const env = process.env.NODE_ENV || 'development';
 
-module.exports = require(__dirname + config);
+module.exports = require(`./${env}.config.js`);
