@@ -1,55 +1,13 @@
-var config = {
-	locale: process.env.LOCALE,
+/**
+ * Constants definition
+ */
 
-	port: process.env.PORT,
+const env = process.env
 
-	db: {
-		connection: process.env.MONGO_URL,
-		aliases: {
-			user: 'users'
-		}
-	},
-
-	accessToken: process.env.ACCESS_TOKEN,
-
-	logentries: {
-		token: process.env.LOGENTRIES_TOKEN
-	},
-
-	hook: {
-		url: process.env.HOOK_URL,
-		token: process.env.HOOK_TOKEN
-	},
-
-	transport: {
-		mandrill: {
-			token: process.env.MANDRILL_TOKEN,
-			from: {
-				email: process.env.MANDRILL_FROM_EMAIL,
-				name: process.env.MANDRILL_FROM_NAME
-			}
-		},
-		twilio : {
-			accountSid: process.env.TWILIO_ACCOUNT_SID,
-			authToken: process.env.TWILIO_ACCOUNT_TOKEN
-		},
-		gcm : {
-			serverApiKey: process.env.GOOGLE_SERVER_API_KEY
-		},
-		apn : {
-			cert: process.env.APPLE_CERT,
-			key: process.env.APPLE_KEY
-		}
-	},
-
-	jobs: {
-		run: {
-			resolve: 5,
-			execute: 10
-		},
-
-		collection: 'notifierJobs'
-	}
-};
-
-module.exports = config;
+export default {
+	locale: env.LOCALE,
+	port: env.PORT,
+	mongoUrl: env.MONGO_URL,
+	mandrillToken: env.MANDRILL_TOKEN,
+  accessToken: env.ACCESS_TOKEN
+}
