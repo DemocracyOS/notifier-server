@@ -39,8 +39,5 @@
     "node-logentries": "~0.1.4",
     "request": "~2.21.0",
     "underscore": "^1.7.0"
-  },
-  "engines": {
-    "node": "0.10.x"
   }
 }
