@@ -10,5 +10,6 @@ export default {
 	mongoUrl: env.MONGO_URL,
 	mandrillToken: env.MANDRILL_TOKEN,
   accessToken: env.ACCESS_TOKEN,
-  organizationName: env.ORGANIZATION_NAME
+  organizationName: env.ORGANIZATION_NAME,
+  organizationEmail: env.ORGANIZATION_EMAIL
 }

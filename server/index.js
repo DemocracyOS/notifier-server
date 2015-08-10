@@ -51,7 +51,8 @@ app.post('/api/events', checkAccessToken, validateEvent, (req, res) => {
 const opts = {
   mongoUrl: config.mongoUrl,
   mandrillToken: config.mandrillToken,
-  organizationName: config.organizationName
+  organizationName: config.organizationName,
+  organizationEmail: config.organizationEmail
 }
 
 const httpListen = app.listen
