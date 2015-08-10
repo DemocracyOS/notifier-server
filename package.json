@@ -1,28 +1,19 @@
 {
   "name": "notifier-server",
   "version": "0.3.1",
-  "description": "Service for sending notifications to users",
+  "description": "Service for sending notifications to users.",
   "main": "index.js",
   "scripts": {
-    "test": "node test/run.js",
-    "test-func": "node test/run.js test/func/notifier.func.js",
-    "watch": "nodemon --watch source --watch config index.js",
-    "test-watch": "nodemon --watch source --watch config --watch test test/run.js",
     "start": "NODE_PATH=. DEBUG=democracyos:notifier-server* babel-node index.js"
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/DemocracyOS/notifier.git"
+    "url": "git://github.com/DemocracyOS/notifier-server.git"
   },
-  "author": "guido@democraciaenred.org",
+    "author": "Democracia en Red <speak@democracyos.org>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/DemocracyOS/notifier/issues"
-  },
-  "devDependencies": {
-    "mocha": "~1.10.0",
-    "chai": "~1.6.1",
-    "sinon-chai": "~2.4.0"
+    "url": "https://github.com/DemocracyOS/notifier-server/issues"
   },
   "homepage": "https://github.com/DemocracyOS/notifier",
   "dependencies": {
