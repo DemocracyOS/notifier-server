@@ -2,8 +2,10 @@
 # DemocracyOS Makefile
 #
 
+BABEL="./node_modules/.bin/babel-node"
+
 ifndef DEBUG
-  DEBUG="democracyos*"
+  DEBUG="democracyos:notifier-server*"
 endif
 
 ifndef NODE_ENV
@@ -12,7 +14,7 @@ endif
 
 run: packages
 	@echo "Starting application..."
-	@NODE_PATH=. DEBUG=$(DEBUG) node app.js
+	@NODE_PATH=. DEBUG=$(DEBUG) $(BABEL) index.js
 
 packages:
 	@echo "Installing dependencies..."
