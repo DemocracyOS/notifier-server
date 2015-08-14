@@ -24,8 +24,7 @@ const prod = env === 'production'
 //TODO: replace this with `ssl` module from `DemocracyOS/app`
 
 export default function herokuSslRedirect(req, res, next) {
-  log('x-forwarded-proto', req.headers['x-forwarded-proto'])
-  const https = req.headers['x-forwarded-proto'] != 'https'
+  const https = req.headers['x-forwarded-proto'] === 'https'
   if (!prod || https) return next()
 
   const redirectionUrl = `https://${req.host}${req.originalUrl}`
