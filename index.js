@@ -2,8 +2,8 @@
  * Module Dependencies
  */
 
-import app from 'server'
-import config from 'config'
+import app from './server'
+import config from './config'
 import debug from 'debug'
 
 /**
