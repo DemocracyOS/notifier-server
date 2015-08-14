@@ -8,7 +8,7 @@ import debug from 'debug'
  * Constants definition
  */
 
-const log = debug('democracyos-notifier:ssl')
+const log = debug('democracyos:notifier-server:ssl')
 const env = process.env.NODE_ENV
 const prod = env === 'production'
 
