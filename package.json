@@ -10,7 +10,7 @@
     "type": "git",
     "url": "git://github.com/DemocracyOS/notifier-server.git"
   },
-    "author": "Democracia en Red <speak@democracyos.org>",
+  "author": "Democracia en Red <speak@democracyos.org>",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/DemocracyOS/notifier-server/issues"

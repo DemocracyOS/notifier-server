@@ -1,7 +1,3 @@
-/**
- * Module Dependencies
- */
-
 import { cors, ssl, checkAccessToken, validateEvent } from 'server/middlewares'
 import bodyParser from 'body-parser'
 import config from 'config'
@@ -50,9 +46,10 @@ app.post('/api/events', checkAccessToken, validateEvent, (req, res) => {
 
 const opts = {
   mongoUrl: config.mongoUrl,
-  mandrillToken: config.mandrillToken,
   organizationName: config.organizationName,
-  organizationEmail: config.organizationEmail
+  organizationEmail: config.organizationEmail,
+  mandrillToken: config.mandrillToken,
+  mailer: config.mailer
 }
 
 const httpListen = app.listen
