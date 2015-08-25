@@ -1,4 +1,32 @@
 
+1.0.0rc / 2015-08-25
+====================
+
+  * add nodemailer
+  * fix ssl redirection, only when protocol is http
+  * log forwarding header for debugging
+  * fix debug scope of ssl middleware
+  * fix typo
+  * [config] - Add organizationEmail config parameter
+  * [config] - Add organizationName config parameter
+  * Update repositories, contact and description in package.json
+  * Update status codes for error responses (40x)
+  * Remove 'engines' declaration from package.json
+  * Update Procfile
+  * Remove unncesary directories and files. Rewrite config module.
+  * Rewrite notifier-server to use democracyos-notifier
+  * Start rewriting notifier-server
+  * Update version compatibility warning
+  * Bump to 0.3.1
+  * Fix RESET_PASSWORD_URL on templates Closes #37
+  * Release 0.3.0
+  * [topic] - Rename law to topic. Closes #35
+  * [topic-published] - Update feed to new forum and topic format #35
+  * [topic-commented] - Update feed to new forum and topic format #35
+  * [topic-voted] - Update feed to new forum and topic format #35
+  * Release 0.2.1
+  * [feed] - Add feededAt attribute on model
+
 0.3.1 / 2015-06-11
 ==================
 
